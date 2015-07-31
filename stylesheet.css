@@ -12,16 +12,11 @@ body{
 	background-color:#077ABF;
 }
 
-/*#access, a:link {
+#access, a:link {
 	color:white !important;
 }
-#menu-item-137, #menu-item-138, #menu-item-139, #menu-item-140, #menu-item-141, #menu-item-142:link, #menu-item-143, #menu-item-144,{
+
+
+#menu-item-137, #menu-item-138, #menu-item-139, #menu-item-140, #menu-item-141, #menu-item-142, #menu-item-143, #menu-item-144, li, a:link{
 	color:white !important;
-}
-*/
-#menu-menu-1:link {
-	color:white;
-}
-.entry-content, .entry-title:link {
-	color:#040404;
 }
