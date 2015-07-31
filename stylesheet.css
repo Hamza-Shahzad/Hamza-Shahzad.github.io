@@ -2,17 +2,26 @@
 
 * {
 	font-family:Merriweather;
-	border:solid;
-	border-color:tomato;
+}
+
+body{
+	background-color:#EAEBED;
 }
 
 #access {
-	background-color:#0213B2;
+	background-color:#077ABF;
 }
 
-#access:link {
+/*#access, a:link {
+	color:white !important;
+}
+#menu-item-137, #menu-item-138, #menu-item-139, #menu-item-140, #menu-item-141, #menu-item-142:link, #menu-item-143, #menu-item-144,{
+	color:white !important;
+}
+*/
+#menu-menu-1:link {
 	color:white;
 }
-#menu-item-137, #menu-item-138, #menu-item-139, #menu-item-140, #menu-item-141, #menu-item-142, #menu-item-143, #menu-item-144, a:link{
-	color:white !important;
+.entry-content, .entry-title:link {
+	color:#040404;
 }
