@@ -1,22 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather);
 
-* {
-	font-family:Merriweather;
-}
-
-body{
+body #site-title{
 	background-color:#EAEBED;
+	font-family:Merriweather;
+	background:transparent;
 }
 
 #access {
 	background-color:#077ABF;
 }
 
-#access, a:link {
-	color:white !important;
+#access a{
+	color:white;
 }
 
-
-#menu-item-137, #menu-item-138, #menu-item-139, #menu-item-140, #menu-item-141, #menu-item-142, #menu-item-143, #menu-item-144, li, a:link{
-	color:white !important;
+#access li:hover > a,
+#access ul ul:hover > a {
+	background-color:#077ABF;
+	border:12px;
+	border-color:black;
 }
