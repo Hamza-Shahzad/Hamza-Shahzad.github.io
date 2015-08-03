@@ -6,9 +6,17 @@ body #site-title{
 	background:transparent;
 }
 
+#wrapper{
+	padding-left:1%;
+	padding-right:1%;
+	margin-left:auto;
+	margin-right:auto;
+	width:auto !important;
+}
+
 #access {
 	background-color:#077ABF;
-}
+} 
 
 #access a{
 	color:white;
@@ -17,6 +25,16 @@ body #site-title{
 #access li:hover > a,
 #access ul ul:hover > a {
 	background-color:#077ABF;
-	border:12px;
-	border-color:black;
+}
+
+.home-link{
+	background-size: cover;
+	background-position:center center;
+}
+#access li:hover {
+	box-shadow: inset 3px 3px 10px #022D44;
+}
+
+#archives, #meta {
+	display:none;
 }
