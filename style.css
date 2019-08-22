@@ -1,0 +1,38 @@
+
+html, body{
+	height:100%;
+	margin:0px;
+}
+
+.text{
+  text-align: center;
+  /*display: block;*/
+  font-size: 2.38em;
+  color:white;
+  padding-top: 25%;
+}
+
+.intro{
+  background-position:50%;
+  padding:0px;
+  margin: 0px;
+  min-height:100%;
+  position:relative;
+  border:0px;
+  background-image: url(Arabesque1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+ h3{
+	text-align:center;
+	font-size: 1.5em;
+}
+
+.about{
+	margin: 10%;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding:3%;
+}
